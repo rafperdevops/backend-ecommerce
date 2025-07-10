@@ -28,3 +28,6 @@ def create_order(order: Order):
     conn.commit()
     conn.close()
     return {"status":"ok", "msg": "Compra guardada con éxito"}
+
+def list_order():
+    return {"status":"ok", "msg": "Listado"}
